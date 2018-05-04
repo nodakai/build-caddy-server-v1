@@ -1,5 +1,7 @@
 FROM golang:1-alpine
 
+LABEL maintainer "NODA, Kai <nodakai@gmail.com>"
+
 RUN apk add --no-cache git
 
 # the `cp` command below assumes /output is bound to the host directory
